@@ -1,0 +1,62 @@
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+HTML ATTRIBUTES
+
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+
+When href = "#" Then it is said to be dead link
+
+We can also create a image with a link by nesting img tag inside a tag
+
+<a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+For unordered list we use ul tag and for ordered list we use ol tag
+
+ <p>This is unordered list</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+
+
+  <p>This is ordered list</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+
+<abbr> = defines an abbreviation or acronym
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<address> = defines contact information for the author of a document
+The text in the <address> element usually renders in italic, and 
+browsers will always add a line break before and after the <address> element.
+
+
+<bdo> = defines the text direction (ovderide current text direction)
+<bdo dir="rtl">This line will be written from right to left</bdo>
+This line will be written from right to left
+
+<blockquote> = defines a section that is quoted from another source (indents)
+<cite> = defines the title of a work (renders in Italic)
+<q> = defines a short inline quotation <insert quotations marks around>
+
+
+<input type = "text">
+
+
