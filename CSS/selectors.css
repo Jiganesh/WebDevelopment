@@ -1,0 +1,35 @@
+/* This is Element Selector */
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+/* This is Class Selector
+
+We use them like 
+<p class ="green-text underline-h"> This is a paragraph </p>
+
+*/
+
+  .green-text{
+      color :green;
+  }
+  
+  .underline-h{
+      text-decoration: underline;
+  }
+
+
+  /* This is id Selector
+
+We use them like 
+<p id ="p3> This is a paragraph </p>
+
+*/
+
+#Italic-magenta{
+    font-style: italic;
+    color :darkmagenta;
+}
+
