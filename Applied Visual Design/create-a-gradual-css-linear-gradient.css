@@ -1,0 +1,19 @@
+div {
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(35deg,#CCFFFF,#FFCCCC)
+
+  }
+
+/*
+The repeating-linear-gradient() function is very similar to linear-gradient() with the major difference that it repeats the specified gradient pattern. repeating-linear-gradient() accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
+
+The angle value is the direction of the gradient. Color stops are like width values that mark where a transition takes place, and are given with a percentage or a number of pixels.
+
+In the example demonstrated in the code editor, the gradient starts with the color yellow at 0 pixels which blends into the second color blue at 40 pixels away from the start. Since the next color stop is also at 40 pixels, the gradient immediately changes to the third color green, which itself blends into the fourth color value red as that is 80 pixels away from the beginning of the gradient.
+
+0px [yellow -- blend -- blue] 40px [green -- blend -- red] 80px
+
+*/
