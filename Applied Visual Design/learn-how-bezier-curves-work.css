@@ -1,0 +1,4 @@
+#ball1 {
+    left: 27%;
+    animation-timing-function:cubic-bezier(0.25,0.25,0.75,0.75);
+  }
